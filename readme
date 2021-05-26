@@ -1,1 +1,18 @@
-This repository will contain tools and scripts to support threat-research. 
+DarkSide Config Extractor by ValthekOn
+--------------------------------------
+
+0.4v:
+
+- Add support for the version of DarkSide (2.1.7.3) from April 2021 as DLL and normal executable.
+- Increased the speed of checks and searchs.
+- Add more texts to report errors to the user.
+- Add avoid, if the program have some crash error, that appear a message error to the user.
+- Avoid checks files that not are pe executables and report it.
+
+
+Usage:
+
+- Put any number of malware samples in the command line, the program will drop a JSON with the same name in the same folder of the
+  malware sample.
+  
+  Disclaimer: Microsoft Defender can flag this tool as "DarkSide'.
