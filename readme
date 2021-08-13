@@ -1,5 +1,29 @@
-DarkSide Config Extractor by ValthekOn
+DarkSide & BlackMatter Config Extractor by ValthekOn & S2 (@sisoma2)
 --------------------------------------
+
+0.8v:
+
+- Added some checks to avoid errors.
+- Added the field "AES_KEY" with the AES key used to cipher the victim info to send to the C2.
+- Added the field "BOT_MALWARE_VERSION" with the version of the sample. It´s get automatic the hardcoded value to get the version.
+- Added the field "RSA_KEY" with the RSA key in the config.
+- Added the field "SHA256_SAMPLE" with the sha256 hash from the sample.
+- Changed some fields to have more accurate the config flags.
+
+0.7v:
+
+- Added the "RANSOM NOTE" field and decrypt the ransom note text.
+- Removed unknow fields as they are not text, they are blacklisted names and extensions to avoid crypt them in a custom hash.
+- Removed some don´t needed code to left more clean.
+
+0.6v:
+
+- Added support for the first version of BlackMatter except some field.
+
+0.5v:
+
+- Starts with BlackMatter support. Thanks to S2 (@sisoma2) for give the sample of BlackMatter very quickly and share ideas about it.
+- Initial checks with one sample of BlackMatter. Early version.
 
 0.4v:
 
@@ -9,23 +33,31 @@ DarkSide Config Extractor by ValthekOn
 - Add avoid, if the program have some crash error, that appear a message error to the user.
 - Avoid checks files that not are pe executables and report it.
 
+0.3v:
+
+- Supports in execution the search of keys and config crypted and compressed. Don´t use anymore hardcode offsets and 
+  keys as 0.2v.
+- Supports increase a lot thanks to the dynamic search.
+
+0.2v:
+
+- Now supports any number of arguments in the prompt. Don´t use anymore the embbeded configuration.
+- Improve the interaction with the user and add error messages and good messages.
+- Support for the version of DarkSide compiled time "23-Dec-2020" and some samples of before "18-Feb-2021".
+- Now dumps the JSON file with the same name of the sample with the extension ".json".
+- Don´t have support yet for more versions and sanity checks. Use with caution.
+- To not be disclosed yet.
+
+0.1v:
+
+- Initial version. 
+- Simple skeleton of the application that will extract a DarkSide´s configuration embedded (crypted and packed) in the binary.
+- Output in a JSON file the configuration parsed to be more easy understand and read.
+- 32bits application (as apLib official library have problems with 64bits).
+- Support Windows XP.
 
 Usage:
 
 - Put any number of malware samples in the command line, the program will drop a JSON with the same name in the same folder of the
   malware sample.
-  
-  
-Disclaimer: Microsoft Defender can flag this tool as "DarkSide'.
 
-We use this library in our tool: https://github.com/DaveGamble/cJSON
-
-MIT License
-
-Copyright (c) 2009-2017 Dave Gamble and cJSON contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
