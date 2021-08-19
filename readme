@@ -1,6 +1,15 @@
 DarkSide & BlackMatter Config Extractor by ValthekOn & S2 (@sisoma2)
 --------------------------------------
 
+0.9.1v:
+
+- Fixed a bug with some samples.
+
+0.9v:
+
+- Added support for versions 1.9 and 2.0.
+- Added a new field "PRINT_RANSOM_NOTE" as version 1.9>= will try print the ransom note with the available printer.
+
 0.8v:
 
 - Added some checks to avoid errors.
@@ -60,4 +69,3 @@ Usage:
 
 - Put any number of malware samples in the command line, the program will drop a JSON with the same name in the same folder of the
   malware sample.
-
